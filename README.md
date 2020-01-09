@@ -17,7 +17,9 @@ Output files will be stored in "/output"
 ## Example
 
 Input: 
-
+![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/input/1.jpg)
+Output:
+![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/output/membership_1.jpg)
 ## License
 
 see the [LICENSE.md](LICENSE.md) file for details
