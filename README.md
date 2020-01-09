@@ -41,3 +41,6 @@ This project is generally implemented based on:
 6. Denis, P., Elder, J. H. & Estrada, F. J. (2008). Efficient Edge-Based Methods for Estimating Manhattan Frames in Urban Imagery
 
 Contact me for more detailed report on the implementation.
+
+## Contact
+huaiyuc@seas.upenn.edu
