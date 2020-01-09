@@ -1,5 +1,10 @@
 # Indoor-scene-vanish-point-detection-and-line-labeling
-
+We estimate three mutually orthogonal vanishing directions points in the following steps:
+- Detect straight line segments
+- Find intersection points (vanishing point candidates)
+- Score and rank vanishing point candidates
+- Choose the triplet with the highest combined score that also leads to reasonable camera parameters
+- Label the line segments based on the estimate
 
 ## Prerequisites
 
@@ -20,6 +25,8 @@ Input:
 ![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/input/1.jpg)
 Output:
 ![alt text](https://github.com/hyc96/Indoor-scene-vanish-point-detection-and-line-labeling/blob/master/output/membership_1.jpg)
+
+Vanishing lines are labeled with three directions, the thrid label indicates irrelavent lines.
 ## License
 
 see the [LICENSE.md](LICENSE.md) file for details
